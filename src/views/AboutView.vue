@@ -26,13 +26,24 @@
         <div class="font-bold text-4xl text-left w-full">
           Skills
         </div>
-        <div class="text-xl space-y-2 m-3 p-2 w-full text-left">
-          <div class="hover:text-2xl transition duration-300 font-mono">Java</div>
-          <div class="hover:text-2xl transition duration-300 font-mono">Kotlin</div>
-          <div class="hover:text-2xl transition duration-300 font-mono">Tailwind</div>
-          <div class="hover:text-2xl transition duration-300 font-mono">JavaScript</div>
-          <div class="hover:text-2xl transition duration-300 font-mono">Vue</div>
-          <div class="hover:text-2xl transition duration-300 font-mono">HTML</div>
+        <div class="text-2xl text-left w-full">
+          Languages:
+        </div>
+        <div class="text-xl space-y-2 w-full text-left">
+          <div class="font-mono">Java</div>
+          <div class="font-mono">Kotlin</div>
+          <div class="font-mono">JavaScript</div>
+          <div class="font-mono">CSS</div>
+          <div class="font-mono">HTML</div>
+        </div>
+        <div class="text-2xl text-left w-full">
+          Frameworks:
+        </div>
+        <div class="text-xl space-y-2 w-full text-left">
+          <div class="font-mono">Springboot</div>
+          <div class="font-mono">Vue.js</div>
+          <div class="font-mono">Jetpack Compose</div>
+          <div class="font-mono">Tailwind CSS</div>
         </div>
       </div>
     </div>
