@@ -22,7 +22,7 @@
 
     <div class="bg-blue-200 text-center border text-2xl rounded-xl shadow-lg p-6 font-mono">
       <div class="flex flex-col items-center">
-        <!-- <img src="D:/Prakhar/portfolio/portfolio/photo.png" alt="Your Name" class="h-40 w-40 rounded-full mb-4"> -->
+        
         <div class="font-bold text-4xl text-left w-full">
           Skills
         </div>
