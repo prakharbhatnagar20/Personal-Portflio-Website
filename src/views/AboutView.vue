@@ -1,11 +1,11 @@
 <template>
-  <div class="text-6xl text-center m-5 font-bold">About Me</div>
+  <div class="text-4xl sm:text-5xl md:text-6xl text-center m-5 font-bold">About Me</div>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-4 m-4">
 
     <!-- Education Section -->
-    <div class="bg-blue-200 text-center border text-2xl rounded-xl shadow-lg p-6 font-mono">
-      <h1 class="font-bold text-4xl mb-4">Education</h1>
-      <div class="grid grid-cols-2 gap-4 text-left">
+    <div class="bg-blue-200 text-center border text-xl sm:text-2xl rounded-xl shadow-lg p-4 sm:p-6 font-mono">
+      <h1 class="font-bold text-3xl sm:text-4xl mb-4">Education</h1>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-left">
         <div>
           <h2 class="font-semibold">High School</h2>
           <p>Ryan International School</p>
@@ -25,43 +25,49 @@
     </div>
 
     <!-- Skills Section -->
-    <div class="bg-blue-200 text-center border text-2xl rounded-xl shadow-lg p-6 font-mono">
+    <div class="bg-blue-200 text-center border text-xl sm:text-2xl rounded-xl shadow-lg p-4 sm:p-6 font-mono">
       <div class="flex flex-col items-center">
-        <div class="font-bold text-4xl w-full mb-4">
+        <div class="font-bold text-3xl sm:text-4xl w-full mb-4">
           Skills
         </div>
         
         <!-- Languages -->
-        <div class="font-bold text-2xl text-left w-full mb-2">
+        <div class="font-bold text-xl sm:text-2xl text-left w-full mb-2">
           Languages:
         </div>
-        <div class="text-xl grid grid-cols-2 gap-2 w-full text-left">
+        <div class="text-lg sm:text-xl grid grid-cols-2 gap-2 w-full text-left">
           <div class="font-mono">Java</div>
           <div class="font-mono">Kotlin</div>
           <div class="font-mono">JavaScript</div>
+          <div class="font-mono">C/++</div>
+          <div class="font-mono">MongoDB</div>
           <div class="font-mono">CSS</div>
+          <div class="font-mono">XML</div>
           <div class="font-mono">HTML</div>
         </div>
         
         <!-- Frameworks -->
-        <div class="font-bold text-2xl text-left w-full mt-6 mb-2">
+        <div class="font-bold text-xl sm:text-2xl text-left w-full mt-6 mb-2">
           Frameworks:
         </div>
-        <div class="text-xl grid grid-cols-2 gap-2 w-full text-left">
+        <div class="text-lg sm:text-xl grid grid-cols-2 gap-2 w-full text-left">
           <div class="font-mono">Springboot</div>
           <div class="font-mono">Vue.js</div>
           <div class="font-mono">Jetpack Compose</div>
           <div class="font-mono">Tailwind CSS</div>
+          
         </div>
         
         <!-- Tools -->
-        <div class="font-bold text-2xl text-left w-full mt-6 mb-2">
+        <div class="font-bold text-xl sm:text-2xl text-left w-full mt-6 mb-2">
           Tools:
         </div>
-        <div class="text-xl grid grid-cols-2 gap-2 w-full text-left">
+        <div class="text-lg sm:text-xl grid grid-cols-2 gap-2 w-full text-left">
           <div class="font-mono">Android Studio</div>
+          <div class="font-mono">Git/Github</div>
           <div class="font-mono">VS Code</div>
           <div class="font-mono">Material Design</div>
+          <div class="font-mono">Postman API</div>
           <div class="font-mono">Figma</div>
         </div>
       </div>
@@ -69,6 +75,7 @@
 
   </div>
 </template>
+
 
 
 <style scoped>
