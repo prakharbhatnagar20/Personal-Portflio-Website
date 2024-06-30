@@ -3,7 +3,7 @@
   <body class="bg-gray-100 font-sans">
   
     <!-- Hero Section with Profile Photo -->
-    <section class="dynamic-bg text-white min-h-screen flex flex-col justify-center items-center">
+    <section class="bg-blue-800 text-white min-h-screen flex flex-col justify-center items-center">
         <img src="/photo.png" alt="Your Name" class="h-80 w-80 object-cover mt-4 mb-2">
         <h1 class="text-4xl lg:text-5xl font-bold mb-4 mt-8 text-center typing">Welcome to My Portfolio</h1>
         <p class="pl-4 pr-4 pt-2 pb-4 text-center max-w-2xl mx-auto font-mono text-lg">
@@ -59,7 +59,7 @@
     blink-caret .75s step-end infinite;
 }
 
-@keyframes gradient {
+/* @keyframes gradient {
   0% { background-position: 0% 50%; }
   5% { background-position: 5% 50%; }
   10% { background-position: 10% 50%; }
@@ -81,13 +81,13 @@
   90% { background-position: 90% 50%; }
   95% { background-position: 95% 50%; }
   100% { background-position: 100% 50%; }
-}
+} */
 
-.dynamic-bg {
+/* .dynamic-bg {
   background: linear-gradient(270deg, #1e3a8a, #2d59a1, #3b82f6, #2563eb, #b90cf2,#c91b3e, #c91b3e, #faa12c,#7e8822,#41c91b,#20f1c0,#1b52c9);
   background-size: 800% 800%;
   animation: gradient 30s ease infinite;
-}
+} */
 
 @media (max-width: 1024px) {
   .typing {
